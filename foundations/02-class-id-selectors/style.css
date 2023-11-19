@@ -1,0 +1,18 @@
+.para-pink{
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adjust-font{
+    font-size: 24px;
+}
+
+#div-id{
+    color: blue;
+    font-size: 36px;
+}
+
+#div-another-id{
+    background-color: rgb(35, 194, 35);
+    font-weight: 700;
+}
