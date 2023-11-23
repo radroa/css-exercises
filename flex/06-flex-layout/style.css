@@ -5,7 +5,44 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .left-links{
+  display: flex;
+  gap: 16px;
+}
+
+.header .right-links{
+  display: flex;
+  gap: 16px;
+  margin-right: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #7e7878;
+}
+
+.content{
+  text-align: center;
+}
+
+.content .buttons{
+  gap: 20px;
+}
+
 
 img {
   width: 600px;
@@ -24,4 +61,21 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.footer .left-links{
+  display: flex;
+  gap: 16px;
+}
+
+.footer .right-links{
+  display: flex;
+  gap: 16px;
+  margin-right: 20px;
 }
